@@ -21,7 +21,7 @@ gem "fast_jsonapi", "~> 1.5"
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", ">= 1.4.4", require: false
-
+gem "jwt", "~> 2.4", ">= 2.4.1"
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem "rack-cors"
 
